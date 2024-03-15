@@ -1,8 +1,8 @@
 package db
 
 import (
+	c "eventopia/src/common"
 	"sync"
-	c "vistaverse/src/common"
 )
 
 type Storage interface {

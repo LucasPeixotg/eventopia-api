@@ -3,8 +3,9 @@ package src
 import (
 	"log"
 	"net/http"
-	"vistaverse/src/auth"
-	"vistaverse/src/event"
+
+	"github.com/LucasPeixotg/eventopia-api/src/auth"
+	"github.com/LucasPeixotg/eventopia-api/src/event"
 
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"

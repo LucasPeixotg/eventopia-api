@@ -2,11 +2,11 @@ package auth
 
 import (
 	"encoding/json"
+	c "eventopia/src/common"
+	"eventopia/src/db"
 	"fmt"
 	"log"
 	"net/http"
-	c "vistaverse/src/common"
-	"vistaverse/src/db"
 
 	"github.com/gorilla/mux"
 )

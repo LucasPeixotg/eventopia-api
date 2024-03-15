@@ -2,12 +2,12 @@ package event
 
 import (
 	"encoding/json"
+	"eventopia/src/auth"
+	c "eventopia/src/common"
+	"eventopia/src/db"
 	"fmt"
 	"log"
 	"net/http"
-	"vistaverse/src/auth"
-	c "vistaverse/src/common"
-	"vistaverse/src/db"
 
 	"github.com/gorilla/mux"
 )

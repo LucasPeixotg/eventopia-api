@@ -1,8 +1,8 @@
 package main
 
 import (
-	"vistaverse/src"
-	"vistaverse/src/db"
+	"eventopia/src"
+	"eventopia/src/db"
 )
 
 func main() {
