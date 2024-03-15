@@ -1,9 +1,15 @@
 package db
 
-import "sync"
+import (
+	"sync"
+	c "vistaverse/src/common"
+)
 
 type Storage interface {
-	CreateAccount() error
+	CreateAccount(*c.CreateAccountRequest) (*c.Account, error)
+	Login(*c.LoginRequest) (*c.Account, error)
+
+	CreateEvent(req *c.CreateEventRequest, user_id int) (*c.Event, error)
 }
 
 var storage Storage
