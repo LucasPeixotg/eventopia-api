@@ -1,8 +1,8 @@
 package main
 
 import (
-	"eventopia/src"
-	"eventopia/src/db"
+	"github.com/LucasPeixotg/eventopia-api/src"
+	"github.com/LucasPeixotg/eventopia-api/src/db"
 )
 
 func main() {

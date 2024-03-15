@@ -1,8 +1,9 @@
 package db
 
 import (
-	c "eventopia/src/common"
 	"sync"
+
+	c "github.com/LucasPeixotg/eventopia-api/src/common"
 )
 
 type Storage interface {

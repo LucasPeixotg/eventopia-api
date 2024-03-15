@@ -1,11 +1,11 @@
 package auth
 
 import (
-	"eventopia/src/common"
 	"fmt"
 	"log"
 	"net/http"
 
+	"github.com/LucasPeixotg/eventopia-api/src/common"
 	"github.com/golang-jwt/jwt/v5"
 )
 

@@ -1,9 +1,10 @@
 package auth
 
 import (
-	c "eventopia/src/common"
 	"fmt"
 	"time"
+
+	c "github.com/LucasPeixotg/eventopia-api/src/common"
 
 	jwt "github.com/golang-jwt/jwt/v5"
 )

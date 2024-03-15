@@ -4,7 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
-	c "vistaverse/src/common"
+
+	c "github.com/LucasPeixotg/eventopia-api/src/common"
 
 	"golang.org/x/crypto/bcrypt"
 
@@ -135,5 +136,5 @@ func (store PostgresStore) CreateEvent(req *c.CreateEventRequest, user_id int) (
 }
 
 func (store PostgresStore) GetEvents(page int) {
-	
+
 }

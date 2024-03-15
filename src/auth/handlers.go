@@ -2,12 +2,12 @@ package auth
 
 import (
 	"encoding/json"
-	c "eventopia/src/common"
-	"eventopia/src/db"
 	"fmt"
 	"log"
 	"net/http"
 
+	c "github.com/LucasPeixotg/eventopia-api/src/common"
+	"github.com/LucasPeixotg/eventopia-api/src/db"
 	"github.com/gorilla/mux"
 )
 
